@@ -50,7 +50,7 @@ Train model with default configuration:（ ResNet50 visual feature and Roberta t
 CUDA_VISIBLE_DEVICES=0  python train.py --config-name train_recipe name=Roberta_ResNet50 trainer.gpus=1 trainer.gradient_clip_val=1.0  trainer.max_epochs=200 model.is_shuffle=False datamodule.num_workers=4
 ```
 
-Train model with chose different backbone networks from [configs/datamodule](configs/datamodule)
+Train model with chose different backbone networks from [configs/datamodule](/configs/datamodule)
 
 ```bash
 CUDA_VISIBLE_DEVICES=0    python train.py --config-name train_recipe_robeta_vitbase  name=Roberta_vitbase trainer.gpus=1 trainer.gradient_clip_val=1  trainer.max_epochs=200 model.is_shuffle=False datamodule.num_workers=4
