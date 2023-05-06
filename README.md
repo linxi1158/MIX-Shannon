@@ -45,8 +45,7 @@ Heterogeneous Cross-Modal Recipe Retrieval on Cooking Step Images [[data and cod
 
 <br>
 
-
-##🙏 Credits
+## 🙏 Credits
 Credits and sources are provided throughout this repo.
 
 Special thanks to:

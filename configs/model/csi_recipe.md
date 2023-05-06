@@ -13,7 +13,7 @@
 
 ## Introduction
 
-![CSIR-task](resources/CSIR-task.jpg)
+![CSIR-task](./resources/CSIR-task.jpg)
 
 Cooking-step-images retrieval (**CSIR**) refers to the problem of retrieving procedural images from a list of cooking step candidate images given a textual recipe as the query, or the reverse side ,as shown in the figure above . To facilitate further development of this task, we have open-sourced the data, models, and code.
 
@@ -63,7 +63,7 @@ CUDA_VISIBLE_DEVICES=0    python train.py --config-name train_recipe_albert_resn
 ## Results and Models
 All experiments  were trained on a single GPU, and the results are as follows.
 
-![experiments](resources/CSIR-experiments.jpg)
+![experiments](/resources/CSIR-experiments.jpg)
 
 ## Credits
 The GAT(Graph Attention Network) code is sourced from **[HeterSumGraph](https://github.com/dqwang122/HeterSumGraph)**. Thanks for their work.
